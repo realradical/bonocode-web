@@ -12,13 +12,13 @@ export const heroData = {
   title: ' ',
   name: 'BONO CODE',
   subtitle:
-    'Harnesses technical excellence to streamline development, modernize technologies, and maximize the value of your investment.',
+    'Harnesses technical excellence to help companies streamline development and modernize technology. Your one-stop software solution service',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'about.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
