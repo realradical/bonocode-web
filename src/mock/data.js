@@ -38,7 +38,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'authwork.png',
     title: 'Streamlined sneakers authentication service',
     info:
       "After identifying Authwork's business objectives, BONO CODE designed its user interface and admin portal with a " +
