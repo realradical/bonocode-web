@@ -19,10 +19,19 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'about.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'BONOCODE is your one-stop shop for all things software development and' +
+    'consulting services. Our level of expertise crosses many software engineering domains, ' +
+    'including big data, cloud migration, mobile-app developments, software management consulting,' +
+    'and training. Our in-house developers are experienced in Java, Scala, and Python, with frontend' +
+    'expertise on Gatsby, React, Swift and Kotlin.',
+  paragraphTwo:
+    'Our mission is to ensure all our clients receive the highest quality software application,' +
+    'which is ultra-scalable and fast. We go above and beyond what is expected of us, and we ensure that all' +
+    'projects are completed within the scope of work timeframe,' +
+    'which is why our requirement gathering and consultant sessions are always on the house.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -39,17 +48,32 @@ export const projectsData = [
       'also compatible on all mobile devices. We wen above and beyond the call of duty to deliver key features such ' +
       "as Stripe and Paypal integration, Google/Facebook OAuth, image processing and so on, supporting Authwork's " +
       'mission to grow into a truly unique product in sneakers industry.',
+    listItems: [],
     url: 'https://authwork.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: '360 Backend Solution Service',
+    info:
+      'We were engaged by a medium-scale enterprise ad and content service provided to' +
+      'revamp their backend system. The engagement included a full re-architecture service to' +
+      'position for ultra scalability (x5) and also improved their content engagement insights.' +
+      'This also included a backend data migration from on-primes services to cloud-based vendors.',
     info2: '',
+    listItems: [
+      'Redesign of core application by the transformation of monolith on-premise application' +
+        'to cloud-based micro-services',
+      'Deployment of real-time data streaming services to monitor ads and content engagement performance',
+      'Setup of CI/CD solution to enable continuous improvements to their platform',
+      'Establishment of a new backend team including training and mentoring of new developers on using' +
+        ' scala and functional programming for the development of optimized and stable software applications',
+      'Developed big-data solutions to unlock ML / Artificial intelligence capability for the ads and content' +
+        ' teams and create new features to increase users engagements, ROI for platform users, and Lifetime-Value of customers',
+    ],
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
