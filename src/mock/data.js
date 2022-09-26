@@ -30,20 +30,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Streamlined sneakers authentication service',
+    info:
+      "After identifying Authwork's business objectives, BONO CODE designed its user interface and admin with a " +
+      'focus on usability and user experience portal. ',
+    info2:
+      'Our team developed its blazing fast web application that is ' +
+      'also compatible on all mobile devices. We wen above and beyond the call of duty to deliver key features such ' +
+      "as Stripe and Paypal integration, Google/Facebook OAuth, image processing and so on, supporting Authwork's " +
+      'mission to grow into a truly unique product in sneakers industry.',
+    url: 'https://authwork.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,8 +56,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Contact us',
+  email: 'info@bonocode.com',
 };
 
 // FOOTER DATA
