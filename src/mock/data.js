@@ -32,8 +32,8 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Streamlined sneakers authentication service',
     info:
-      "After identifying Authwork's business objectives, BONO CODE designed its user interface and admin with a " +
-      'focus on usability and user experience portal. ',
+      "After identifying Authwork's business objectives, BONO CODE designed its user interface and admin portal with a " +
+      'focus on usability and user experience. ',
     info2:
       'Our team developed its blazing fast web application that is ' +
       'also compatible on all mobile devices. We wen above and beyond the call of duty to deliver key features such ' +
