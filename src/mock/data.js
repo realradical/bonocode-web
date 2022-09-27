@@ -20,16 +20,15 @@ export const heroData = {
 export const aboutData = {
   img: 'about.jpeg',
   paragraphOne:
-    'BONOCODE is your one-stop shop for all things software development and' +
+    'BONO CODE is your one-stop shop for bespoke software development and ' +
     'consulting services. Our level of expertise crosses many software engineering domains, ' +
-    'including big data, cloud migration, mobile-app developments, software management consulting,' +
-    'and training. Our in-house developers are experienced in Java, Scala, and Python, with frontend' +
-    'expertise on Gatsby, React, Swift and Kotlin.',
+    'including big data, cloud migration, mobile/web development, technology consulting, ' +
+    'and onsite training. Our team has abundant experience not only in mainstream stacks, but also in ever-growing ' +
+    'functional stacks.',
   paragraphTwo:
-    'Our mission is to ensure all our clients receive the highest quality software application,' +
-    'which is ultra-scalable and fast. We go above and beyond what is expected of us, and we ensure that all' +
-    'projects are completed within the scope of work timeframe,' +
-    'which is why our requirement gathering and consultant sessions are always on the house.',
+    'Our mission is to provide all our clients with the highest quality of software services, ' +
+    'We always aim to go above and beyond what is expected from us, with a special focus on turnaround time, technical ' +
+    'excellence and customer support.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
@@ -55,21 +54,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '360 Backend Solution Service',
+    title: 'Total revamp of the legacy backend',
     info:
-      'We were engaged by a medium-scale enterprise ad and content service provided to' +
-      'revamp their backend system. The engagement included a full re-architecture service to' +
-      'position for ultra scalability (x5) and also improved their content engagement insights.' +
-      'This also included a backend data migration from on-primes services to cloud-based vendors.',
+      'A medium-sized content analytics service company engaged with us to ' +
+      'revamp their legacy backend systems. The engagement included a full redesign of their backend services to ' +
+      'position for future scalability (x5) and improving their content engagement insights.',
     info2: '',
     listItems: [
-      'Redesign of core application by the transformation of monolith on-premise application' +
-        'to cloud-based micro-services',
-      'Deployment of real-time data streaming services to monitor ads and content engagement performance',
-      'Setup of CI/CD solution to enable continuous improvements to their platform',
+      'Successfully migrated the monolith on-premise backend to cloud-based micro-services ',
       'Establishment of a new backend team including training and mentoring of new developers on using' +
         ' scala and functional programming for the development of optimized and stable software applications',
-      'Developed big-data solutions to unlock ML / Artificial intelligence capability for the ads and content' +
+      'Developed real-time data streaming services to unlock ML / Artificial intelligence capability for the ads and content' +
         ' teams and create new features to increase users engagements, ROI for platform users, and Lifetime-Value of customers',
     ],
     url: '',
